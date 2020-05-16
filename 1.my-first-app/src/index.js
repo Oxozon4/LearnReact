@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import Clock from './components/clock.js'
 const App = () => {
     const buttonText = { text: 'Click me!' };
-    function getTime() {
-        return (new Date()).toLocaleTimeString();
-    }
     return (
         <div style={{ textAlign: 'center' }}>
             <div>
