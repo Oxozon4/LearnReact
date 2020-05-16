@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Clock from './components/clock.js'
+
 const App = () => {
     const buttonText = { text: 'Click me!' };
     return (
