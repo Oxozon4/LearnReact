@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Clock from './components/clock.js'
 const App = () => {
     const buttonText = { text: 'Click me!' };
     function getTime() {
@@ -9,8 +9,7 @@ const App = () => {
     return (
         <div style={{ textAlign: 'center' }}>
             <div>
-                <div>Current Time:</div>
-                <h3>{getTime()}</h3>
+                <Clock />
             </div>
             <label className="label" htmlFor="name">
                 Enter name:
