@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable react/jsx-no-duplicate-props */
-/* eslint-disable react/button-has-type */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Clock from './components/clock';
@@ -8,7 +5,7 @@ import Clock from './components/clock';
 const App = () => {
   const buttonText = { text: 'Click me!' };
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div style={{ textAlign: 'center', minWidth: '350px', fontFamily: 'Open Sans' }}>
       <div
         style={{
           backgroundColor: 'yellow',
@@ -16,17 +13,18 @@ const App = () => {
           width: '100%',
           height: '5vh',
           fontSize: '2rem',
-          lineHeight: '-40px',
+          lineHeight: '-20px',
           marginBottom: '50px',
+          border: '1px solid black',
         }}
       >
         <Clock />
       </div>
-      <label htmlFor="name" className="label" htmlFor="name">
+      <label htmlFor="name" className="label">
         Enter name:
+        <input id="name" type="text" />
       </label>
-      <input id="name" type="text" />
-      <button type="reset" style={{ backgroundColor: 'blue', color: 'white' }}>
+      <button type="submit" style={{ backgroundColor: 'blue', color: 'white' }}>
         {buttonText.text}
       </button>
     </div>
