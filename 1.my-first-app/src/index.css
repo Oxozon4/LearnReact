@@ -1,3 +1,7 @@
+.main {
+    text-align: center;
+    min-width: 350px;
+}
 .main-container {
         background-color: yellow;
         color: black;
@@ -5,6 +9,15 @@
         height: 5vh;
         font-size: 2rem;
         line-height: -20px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         border: 1px solid black;
+        position: relative;
+}
+
+.main-container__comments {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 290px;
 }
