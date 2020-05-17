@@ -28,12 +28,9 @@ const App = () => {
         {buttonText.text}
       </button>
       <hr />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-
+      <CommentDetail author="Sam"/>
+      <CommentDetail author="Alex"/>
+      <CommentDetail author="Jane"/>
     </div>
   );
 };
