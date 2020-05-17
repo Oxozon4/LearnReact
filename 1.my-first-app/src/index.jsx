@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Clock from './components/clock';
-import faker from 'faker';
+import CommentDetail from './components/commentDetail'
 const App = () => {
   const buttonText = { text: 'Click me!' };
   return (
@@ -28,56 +28,13 @@ const App = () => {
         {buttonText.text}
       </button>
       <hr />
-      <div style={{textAlign: 'left'}} className="ui container comments">
-        <div className="comment">
-          <a href="/" className="avatar">
-            <img alt="avatar"  src={faker.image.avatar()}/>
-          </a>
-          <div className="content">
-            <a href="/" className="author">
-              Sam
-            </a>
-            <div className="metadata">
-              <span className="date">Today at 6:00PM</span>
-            </div>
-            <div className="text">Nice blog post!</div>
-          </div>
-        </div>
-      </div>
-      <div style={{textAlign: 'left'}} className="ui container comments">
-        <div className="comment">
-          <a href="/" className="avatar">
-            <img alt="avatar"  src={faker.image.avatar()}/>
-          </a>
-          <div className="content">
-            <a href="/" className="author">
-              Sam
-            </a>
-            <div className="metadata">
-              <span className="date">Today at 6:00PM</span>
-            </div>
-            <div className="text">Nice blog post!</div>
-          </div>
-        </div>
-      </div>
-      <div style={{textAlign: 'left'}} className="ui container comments">
-        <div className="comment">
-          <a href="/" className="avatar">
-            <img alt="avatar"  src={faker.image.avatar()}/>
-          </a>
-          <div className="content">
-            <a href="/" className="author">
-              Sam
-            </a>
-            <div className="metadata">
-              <span className="date">Today at 6:00PM</span>
-            </div>
-            <div className="text">Nice blog post!</div>
-          </div>
-        </div>
-      </div>
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+      <CommentDetail />
+
     </div>
-    
   );
 };
 
