@@ -3,21 +3,29 @@
     min-width: 350px;
 }
 .main-container {
-        background-color: yellow;
+        background-color: lightgreen;
         color: black;
         width: 100%;
         height: 5vh;
         font-size: 2rem;
         line-height: -20px;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
         border: 1px solid black;
         position: relative;
 }
 
+.main-container__comments-box {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+}
 .main-container__comments {
     margin: auto;
     position: absolute;
     left: 0;
     right: 0;
     width: 290px;
+    margin-top: 50px;
 }
