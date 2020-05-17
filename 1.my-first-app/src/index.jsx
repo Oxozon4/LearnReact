@@ -37,6 +37,7 @@ const App = () => {
             <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
             <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
             <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
         </article>
         <div className="ui divider"></div>
     <div className="ui teal large inverted menu footer" >
@@ -49,6 +50,7 @@ const App = () => {
         <div className="main-container__comments-box">
       <div className="main-container__comments">
         <CommentDetail author="Max" timeAgo="Yesterday at 8:30AM" content="Dude, thats awesome!" avatar={faker.image.avatar()} />
+        <CommentDetail author="Thomas" timeAgo="Yesterday at 9:00AM" content="Love the topic" avatar={faker.image.avatar()} />
       <ApprovalCard>
         <CommentDetail author="Sam" timeAgo="Today at 4:45PM" content="Nice blog post!" avatar={faker.image.avatar()}/>
       </ApprovalCard>
