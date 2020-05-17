@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Clock from './components/clock';
-import CommentDetail from './components/commentDetail'
+import CommentDetail from './components/commentDetail';
+import faker from 'faker';
+
 const App = () => {
   const buttonText = { text: 'Click me!' };
   return (
@@ -28,9 +30,9 @@ const App = () => {
         {buttonText.text}
       </button>
       <hr />
-      <CommentDetail author="Sam" timeAgo="Today at 4:45PM" content="Nice blog post!"/>
-      <CommentDetail author="Alex" timeAgo="Today at 2:00AM" content="I like the subject"/>
-      <CommentDetail author="Jane" timeAgo="Yesterday at 5:00PM" content="I like the writing"/>
+      <CommentDetail author="Sam" timeAgo="Today at 4:45PM" content="Nice blog post!" avatar={faker.image.avatar()}/>
+      <CommentDetail author="Alex" timeAgo="Today at 2:00AM" content="I like the subject" avatar={faker.image.avatar()}/>
+      <CommentDetail author="Jane" timeAgo="Yesterday at 5:00PM" content="I like the writing" avatar={faker.image.avatar()}/>
     </div>
   );
 };
