@@ -22,7 +22,7 @@ const App = () => {
             </div>
             </div>
             <article>
-            <h2 className="ui header"><a href="#">My First Bacon Blog!</a>
+            <h2 className="ui header"><a href="#">My First Blog!</a>
                 <div className="sub header">Written by <a href="#">Marcin Hebda</a> on May 18, 2020.
                 <span className="ui right floated medium labels">
                 <div className="ui label">
@@ -34,11 +34,12 @@ const App = () => {
                     </span>
                 </div>
             </h2>
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
-            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+            <p>A trifecta, irish, sugar frappuccino cultivar frappuccino percolator mazagran cappuccino turkish. Aroma milk, rich crema, instant café au lait spoon grounds extraction. White siphon, instant con panna aged at black plunger pot. Saucer, wings a caffeine, black as in iced so brewed plunger pot caffeine.</p>
+            <p>At doppio so, mazagran at to go aromatic, irish frappuccino rich a café au lait. Cup at doppio coffee whipped spoon et turkish ristretto single shot. Foam, qui saucer as java roast, arabica barista brewed grinder percolator. Et, to go cinnamon mazagran percolator grinder instant cup white spoon.</p>
+            <p>Ristretto wings, id aromatic a single shot saucer. Froth sweet organic, coffee extra ristretto id decaffeinated foam. Aromatic trifecta, at seasonal, beans dripper sugar grounds sweet arabica. Variety so, aroma iced est froth mazagran crema.</p>
             <img src={faker.image.imageUrl()} />
-            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+            <p>
+In flavour single shot plunger pot carajillo body aroma pumpkin spice. Organic, steamed, to go, doppio americano seasonal froth percolator id flavour seasonal. Extraction qui carajillo latte, arabica cappuccino so blue mountain steamed espresso. Aromatic roast frappuccino pumpkin spice coffee variety blue mountain.</p>
         </article>
         <div className="ui divider"></div>
     <div className="ui teal large inverted menu footer" >
