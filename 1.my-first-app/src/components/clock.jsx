@@ -28,7 +28,7 @@ class Clock extends React.Component {
       <p style={{ marginTop: '0px' }}>
         Present Time:
         {' '}
-        {time}
+        {time} |
       </p>
     );
   }
