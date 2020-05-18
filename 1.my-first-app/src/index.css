@@ -17,9 +17,11 @@ body {
     background-color: snow;
 }
 .main-container__comments-box {
-    margin-left: 35%;
-    margin-right: 35%;
-    width: 30%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 400px;
     height: 600px;
     border: 1px solid black;
     background-color: lightcyan;
