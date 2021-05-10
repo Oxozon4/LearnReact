@@ -35,4 +35,4 @@ const SeasonDisplay = props => {
     );
 };
 
-export default SeasonDisplay 
+export default SeasonDisplay
